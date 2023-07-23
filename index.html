@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@100&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <title>Quizzzem</title>
+    </head>
+    <body>
+        <main>
+            <section class="opening-message">
+                <h1>Sup Checkout this quiz shit</h1>
+                <button id="startitup">click this shit</button>
+            </section>
+            <section id="quiz" class="hide">
+                <div>aint got time:
+                    <span id="timer"> 0</span>
+                </div>
+                <div id="question"></div>
+                <ul id="choices"></ul>
+                <div id="notification"></div>
+            </section>
+            <section id="end-game-screen" class="hide">
+                <h2>hey man you are like at the end and shit</h2>
+                <p>input your initials because you are soooooo cooooool</p>
+                <form id="input-form">
+                    <input type="text" id="input">
+                    <button id="input-btn">click me daddy</button>
+                </form>
+            </section>
+            <div id="highscores-section" class="hide">
+                <p>hover over this cool ass cat to reveal highscores</p>
+                <div id="coolcatpic" class="hide">                    
+                    <img src="./images/coolcat.jpg" alt="">
+                </div>
+                <section id="scoreboard" class="hide">
+                    <img class="catsign" src="./images/catsign.jpg" alt="catshit">
+                </section>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
